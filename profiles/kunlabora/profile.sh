@@ -11,8 +11,8 @@ export KUNLABORA_PROFILE="$KUNLABORA_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$KUNLABORA_PROFILE"
 
 ## User
-export GIT_USER_NAME="dieter-kunlabora"
-export GIT_USER_EMAIL="dieter.vanpeer@kunlabora.be"
+export GIT_USER_NAME="paulussander"
+export GIT_USER_EMAIL="sander.paulus@kunlabora.be"
 
 
 # Execution

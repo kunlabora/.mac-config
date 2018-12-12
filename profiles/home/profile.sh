@@ -11,8 +11,8 @@ export HOME_PROFILE="$HOME_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$HOME_PROFILE"
 
 ## User
-export GIT_USER_NAME="vanpeerdevelopment"
-export GIT_USER_EMAIL="dieter@vanpeerdevelopment.be"
+export GIT_USER_NAME="parcival89"
+export GIT_USER_EMAIL="paulus.sander@gmail.com"
 
 
 # Execution

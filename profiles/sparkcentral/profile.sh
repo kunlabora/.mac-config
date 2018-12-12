@@ -11,13 +11,13 @@ export SPARKCENTRAL_PROFILE="$SPARKCENTRAL_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$SPARKCENTRAL_PROFILE"
 
 ## User
-export GIT_USER_NAME="dieterv_sc"
-export GIT_USER_EMAIL="dieter.v@sparkcentral.com"
+export GIT_USER_NAME="sanderp"
+export GIT_USER_EMAIL="sander.p@sparkcentral.com"
 
 
 # Execution
 ## eng-tools
-export ENG_TOOL_DIR="/Users/dietervp/Projects/sparkcentral/eng-tools"
+export ENG_TOOL_DIR="/Users/paulusa/Projects/sparkcentral/eng-tools"
 export PATH="$ENG_TOOL_DIR/bin:$PATH"
 source "$ENG_TOOL_DIR/src/.profilerc"
 
