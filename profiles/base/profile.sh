@@ -8,7 +8,6 @@ export BASE_PROFILE_HOME="$PROFILES_HOME/base"
 export BASE_PROFILE="$BASE_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$BASE_PROFILE"
 
-
 # Execution
 ## Profile
 alias reload-profile='source $CURRENT_PROFILE'

@@ -3,7 +3,6 @@
 # Load base profile
 source "$(dirname $0)/../base/profile.sh"
 
-
 # Configuration
 ## General
 export KUNLABORA_PROFILE_HOME="$PROFILES_HOME/kunlabora"
@@ -13,7 +12,6 @@ export CURRENT_PROFILE="$KUNLABORA_PROFILE"
 ## User
 export GIT_USER_NAME="paulussander"
 export GIT_USER_EMAIL="sander.paulus@kunlabora.be"
-
 
 # Execution
 ## Git

@@ -3,7 +3,6 @@
 # Load base profile
 source "$(dirname $0)/../base/profile.sh"
 
-
 # Configuration
 ## General
 export SPARKCENTRAL_PROFILE_HOME="$PROFILES_HOME/sparkcentral"
@@ -13,13 +12,6 @@ export CURRENT_PROFILE="$SPARKCENTRAL_PROFILE"
 ## User
 export GIT_USER_NAME="sanderp"
 export GIT_USER_EMAIL="sander.p@sparkcentral.com"
-
-
-# Execution
-## eng-tools
-export ENG_TOOL_DIR="/Users/paulusa/Projects/sparkcentral/eng-tools"
-export PATH="$ENG_TOOL_DIR/bin:$PATH"
-source "$ENG_TOOL_DIR/src/.profilerc"
 
 ## Git
 alias git="git -c user.name=$GIT_USER_NAME -c user.email=$GIT_USER_EMAIL"
@@ -41,3 +33,9 @@ function mysqldump-local() {
 function mysqlimport-local() {
     pv $3 | mysql --user=$2 -p --host=127.0.0.1 --port=3306 $1
 }
+
+# Execution
+## eng-tools
+export ENG_TOOL_DIR="/Users/paulusa/Projects/sparkcentral/eng-tools"
+export PATH="$ENG_TOOL_DIR/bin:$PATH"
+source "$ENG_TOOL_DIR/src/.profilerc"

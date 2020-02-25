@@ -53,6 +53,7 @@ For each profile adapt user configuration in `profile.sh` and:
 ###### Theme
 - `ZSH_THEME="powerlevel9k/powerlevel9k"`
 - [powerlevel9k theme](https://github.com/bhilburn/powerlevel9k)
+- [powerlevel9k theme](https://github.com/romkatv/powerlevel10k)
 
 ###### Plugins
 - `plugins=(zsh-completions, zsh-syntax-highlighting zsh-autosuggestions)`
