@@ -39,3 +39,5 @@ function mysqlimport-local() {
 export ENG_TOOL_DIR="/Users/paulusa/Projects/sparkcentral/eng-tools"
 export PATH="$ENG_TOOL_DIR/bin:$PATH"
 source "$ENG_TOOL_DIR/src/.profilerc"
+
+alias aws=/usr/local/opt/awscli@1/bin/aws
