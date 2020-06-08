@@ -8,9 +8,6 @@ export BASE_PROFILE_HOME="$PROFILES_HOME/base"
 export BASE_PROFILE="$BASE_PROFILE_HOME/profile.sh"
 export CURRENT_PROFILE="$BASE_PROFILE"
 
-# Add toolbox scripts to PATH
-export PATH="$HOME/.toolbox:$PATH"
-
 # Execution
 ## Profile
 alias reload-profile='source $CURRENT_PROFILE'
