@@ -1,0 +1,4 @@
+#!/bin/bash
+security delete-internet-password -l "git-codecommit.eu-west-1.amazonaws.com"; do; done;
+aws-adfs login --profile=katecicd --adfs-host=sts.kbc-group.com
+git config --global credential.helper '!aws --profile katecicd codecommit credential-helper $@'
