@@ -16,6 +16,12 @@ alias reload-profile='source $CURRENT_PROFILE'
 alias cls='clear'
 
 ## oh-my-zsh
+function update-zsh-submodules() {
+    pushd $MAC_CONFIG_HOME
+    git pull --recurse-submodules -f
+    popd
+}
+
 function add-custom-plugin() {
     pushd $MAC_CONFIG_HOME/zsh/plugins
     git submodule add $1
