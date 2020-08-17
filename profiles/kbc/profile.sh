@@ -25,3 +25,4 @@ alias login-acc="aws-adfs login --profile=kateacc"
 alias login-dev="aws-adfs login --profile=katedev"
 
 alias mvn="mvn -s $KBC_PROFILE_HOME/.m2/config/settings.xml"
+alias ./mvnw="./mvnw -s $KBC_PROFILE_HOME/.m2/config/settings.xml"
